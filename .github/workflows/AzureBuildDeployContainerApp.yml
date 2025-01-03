@@ -49,3 +49,4 @@ jobs:
     - run: |
         docker build . -t containeregistery.azurecr.io/myapp:1.0.0
         docker push containeregistery.azurecr.io/myapp:1.0.0
+        
